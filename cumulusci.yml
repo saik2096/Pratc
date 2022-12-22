@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.70.0'
+project:
+    name: Pratc
+    package:
+        name: Pratc
+        api_version: '55.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/Pratc/tests
+            options:
+                outputdir: robot/Pratc/results
+
+    robot_testdoc:
+        options:
+            path: robot/Pratc/tests
+            output: robot/Pratc/doc/Pratc_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
