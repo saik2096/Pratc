@@ -1,3 +1,8 @@
+Insert Practice__c:
+  sf_object: Practice__c
+  fields:
+  - Name
+  - routr__c
 Insert bike__c:
   sf_object: bike__c
   fields:

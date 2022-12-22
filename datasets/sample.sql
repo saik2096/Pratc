@@ -1,4 +1,12 @@
 BEGIN TRANSACTION;
+CREATE TABLE "Practice__c" (
+	id INTEGER NOT NULL, 
+	"Name" VARCHAR(255), 
+	routr__c VARCHAR(255), 
+	PRIMARY KEY (id)
+);
+INSERT INTO "Practice__c" VALUES(1,'rfgeh','dfvdh');
+INSERT INTO "Practice__c" VALUES(2,'wdqd`','dscc');
 CREATE TABLE bike__c (
 	id INTEGER NOT NULL, 
 	"Name" VARCHAR(255), 
